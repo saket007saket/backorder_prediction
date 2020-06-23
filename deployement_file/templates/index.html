@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+<title>Search Page</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <h1 style="text-align: center">Predict,will product go on backorder?</h1>
+
+    <div class="form">
+        <form action="/predict" method="POST">
+            <input type="number" name="national_inventory" id="national_inventory" placeholder="NATIONAL INVENTORY">
+            <input type="number" name="lead_time" id="lead_time" placeholder="LEAD TIME">
+            <input type="number" name="in_transit_qty" id="in_transit_qty" placeholder="IN TRANSIT QTY">
+            <input type="number" name="month_3_forcasted_value" id="month_3_forcasted_value" placeholder="3 MONTH FORCASTED VALUE">
+            <input type="number" name="prior_1_month_sales" id="prior_1_month_sales" placeholder="PRIOR 1 MONTH SALES">
+            <input type="number" name="prior_9_month_sales" id="prior_9_month_sales"placeholder="PRIOR 9 MONTH SALES">
+            <input type="submit" value="Predict">
+        </form>
+    </div>
+</div>
+{% endblock %}
