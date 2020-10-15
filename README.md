@@ -1,5 +1,31 @@
-# project-on-backorder_prediction
-its a classification type of model in which we r predicting whether product will go for backorder or not, i have created a client interface to take some feature value to decide whether product will go for backorder or not in coming future 
+# Project name:-
+
+### Predicting Material Backorders in Inventory Management using Machine Learning
+
+# Period:- 
+
+May 2020-June2020
+
+# Business objective:-
+
+In this project Use, machine learning to predict will product go on backorder or not based on some input value of features. The dataset includes lead time, inventory status, sales forecast for the next 3 6,9 months prior sales of 3,6,9 months based on these features I have to predict whether a certain product will go on backorder or not.
+
+# dataset information:-
+
+kaggle data set
+# Algorithms:- 
+
+XGBoosting algorithm
+
+# Steps:-
+
+EDA, insights of data, feature engineering, feature selection, analysis of different algo Deployment: on flask and rest API using pycharm
+Deployment:-on flask as integrating platform on pycharm as tool for integration
+
+# Video Explanation demo Project URL:-
+
+https://www.linkedin.com/posts/saket-nandan-758117106_datasciences-machinelearning-dataanalytics-activity-6718539951807451136-A0Q7
+
 #### Data Description :-
 A backorder is the order which could not be fulfilled by the company. Due to high demand of a product, the company was not able to keep up with the delivery of the order. The backordering can lead to upsetting customer as they couldn't get what they ordered and the loyalty will decrease.
 Also, company cannot overstock every product in their inventory to avoid such situation.
